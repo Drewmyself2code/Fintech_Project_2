@@ -1,4 +1,5 @@
 # Fintech_Project_2
+![](https://blockupdate.io/wp-content/uploads/2019/02/price-chart.jpg)
 
 Introduction:
 
@@ -30,11 +31,11 @@ Our goal is to develop an effective learning model that can predict proper entry
 
 ## Customer Profile
 
-Short Term Investor
-A scalper trading utilizing a min, hr, or day chart. Loves using technical indicators but uses to many. They leave no clear direction when enter or exist a trade.  
+Short Term Investor:
+A scalper trading utilizing a minute, hour, or day chart. This person loves using technical indicators but uses too many. They leave no clear direction when to enter or exist a trade.  
 
-Long Term Investor
-This investor may want to dallor cost into a trading range but would prefer to buy crytop at a cheaper price. Or, this investor is looking for the perfect signals a long or short an exisiting trade. This investor doesn't have the time to update charts everyday and trade. But this investor understand technical indicators.
+Long Term Investor:
+This investor may want to dollar cost into a trading range but would prefer to buy cryto at a cheaper price. Or, this investor is looking for the perfect signals for a long or short in an exisiting trade. This investor doesn't have the time to update charts everyday and trade, but this investor understands technical indicators.
 
 ## Problems with Retail
 
@@ -52,9 +53,9 @@ This investor may want to dallor cost into a trading range but would prefer to b
 * > Toolbox
 * > Strategy
 
-The purpose of our project is to save the retail investor money and time.  Our Crypto Surfer Trading Strategy has all three pro trader componets making any retail trader a pro.
+The purpose of our project is to save the retail investor money and time.  Our Crypto Surfer Trading Strategy has all three professional trader componets making any retail trader a professional in their own right.
 
-* > Patience:  the module waits for signals no   emotions invlove
+* > Patience:  the module waits for signals: no emotions invloved
 * >  oolbox:  Our trading strategy combines technical indicators into a single strategy
 * > Learning: We use machine and deep learning to predict future prices
 
@@ -145,7 +146,7 @@ Cumlative Returns
 ## Usage (add link to code)
 
 How does one go about using it?
-Provide various use cases and code examples here.
+Provide various use cases and code examples here:
 
 `write-your-code-here`
 
@@ -172,3 +173,4 @@ To do:
 Give credit here.
 
 ## Contact
+![](https://media.giphy.com/media/3oeSALRyH4rYS3Nt8Q/giphy.gif)
