@@ -8,182 +8,167 @@ Introduction:
 
 We are developing an effective learning model that can predict proper entry and exist signals for short and long term trades in the highly volatile crypto market.
 
-## Trading Strategy
+## Table-of-Contents
 
-Our trading strategy combines multiple technical indicators into a single strategy. A stragey that makes investment decisions based on future price movements derived primarily from historicl prices. We leverage signals poduced by indicators to determine entry and exit points. These indicators fall into three categories which include:
+* > [General Information](#General-Information)
+* > [Customer Profile](#Customer-Profile)
+* > [Technical Indicators](#Technical-Indicators)
+* > [Problems with Retail](#Problems-with-Retail)
+* >  [Scenario](#features)
+* >  [Three things Pros have in Common](#Three-things-Pros-have-in-Common)
+* >  [Scenario](#Scenario)
+* >  [Solution](#Solution)
+* > [Investment Plan](#Investment-Plan)
+* > [Project Deliverables](#Project-Deliverables)
+* > [Features](#Features)
+* > [Usage](#project-status)
+* >  [Contact](#contact)
 
-                    1) Momentum Indicators -  
+## General Information
 
-                    such as the Relative Strength Index (RSI), allow you to determine the direction and strength of a current price trend. As an asset begins to build momentum, opening a new position will become less risky. Looking at Moving Average indicators also help you gauge momentum.
+Our goal is to develop an effective learning model that can predict proper entry and exist signals for short and long term trades in the highly volatile crypto market.
 
-                    2)Trend Indicators -
+## Customer Profile
 
-                    Allow you to determine whether an asset is currently overbought or oversold. Many trend following indicators, such as Bollinger Bands, attempt to create a clear “channel". A clear channel will tell you whether prices are close to breaking out or returning to normal.
+Short Term Investor
+A scalper trading utilizing a min, hr, or day chart. Loves using technical indicators but uses to many. They leave no clear direction when enter or exist a trade.  
 
-                    3)Volume Indicators -
+Long Term Investor
+This investor may want to dallor cost into a trading range but would prefer to buy crytop at a cheaper price. Or, this investor is looking for the perfect signals a long or short an exisiting trade. This investor doesn't have the time to update charts everyday and trade. But this investor understand technical indicators.
 
-                    Help traders identify the (strong) relationship between price and volume. Increases in trading volume almost always result in an increase in price. However, these events do not always occur at the same time, which is why volume indicators are good for advanced forecasting. The On Balance Volume (OBV) and Money Flow are two of the most useful volume indicators.
+## Problems with Retail
 
+* > Time spent analzing charts
+* > Panic trading
+* >  False signals
+* >  Fraud
+* > Mulpiniulation
+* > Inconsistancy
+* > Confusion
 
-                                  #############NOTES####
-##Customer Profile:
+## Three things Pros have in Common
 
-Short Term Investment Plan
-A scalper trading or trader utilizing a min, hr, or day chart. Loves using technical indicators but uses to many leaving no clear director to enter or exist a trade. Our customer is happy reciving %15 APY on thier investment whithin a year. 
+* >  Patience
+* > Toolbox
+* > Strategy
 
-##Investment Plan
+The purpose of our project is to save the retail investor money and time.  Our Crypto Surfer Trading Strategy has all three pro trader componets making any retail trader a pro.
 
-•Investment $500
-•Enter
-•Exist
-•Crpyto Currency
-•Length 1 1/2
-•Profit 10 -20
-•Risk $500
+* > Patience:  the module waits for signals no   emotions invlove
+* >  oolbox:  Our trading strategy combines technical indicators into a single strategy
+* > Learning: We use machine and deep learning to predict future prices
 
+## Technical_Indicators
 
-##Long Term Investment Plan
-A trader utilizing the daily chart has more time to think about the different signals and analyses the chart in detail. But what if you want to dollar cost average in or at of your long term investment. 
+### Momentum
 
-In
+Momentum indicators return a selling signal when prices start to move strongly higher, and a buying signal when prices start to move strongly lower. We used the Commodity Channel Index indicator to measure momentum.
 
+CCI
+CCI measures the difference between a security’s price change and its average price change. High positive readings indicate that prices are well above their average, which is a show of strength. Low negative readings indicate that prices are well below their average, which is a show of weakness.
 
-
-What is your style or strategy, goal, or risk management measures?
-If you are new to trading we will create one for you.
-
-Simply put, a trading plan helps by identifying expected outcomes, setting realistic goals, understanding a risk profile, which in turn determines a trading strategy and style. This helps to eliminate emotional pitfalls that might be present when one is trading.
-
-However, formulating a trading plan is just the initial step. What comes next is evaluation. It is important to note that a trader must constantly analyse each and every individual trade undertaken and its following results closely. Was the plan followed, and if not, why? The frequency of evaluation differs from trader to trader. Intraday traders should do a daily review of their trades, while for long-term traders, it might be sufficient to do a weekly review.
-
-Having a trading plan also allows an individual to track whether there have been improvements made. After each analysis of the trader’s performance, they can discover where things went right or wrong. No one can be a perfect trader as losses are part of the game. However, by constantly analysing performance, errors and weaknesses can either be eliminated or reduced, whereas, winning streaks can be further built upon.
-
-0.1000% / 0.1000%
-Profit
-Cumlative Returns 
-
+Calculation
 classta.trend.CCIIndicator(high: pandas.core.series.Series, low: pandas.core.series.Series, close: pandas.core.series.Series, window: int = 20, constant: float = 0.015, fillna: bool = False)
 Commodity Channel Index (CCI)
 
-CCI measures the difference between a security’s price change and its average price change. High positive readings indicate that prices are well above their average, which is a show of strength. Low negative readings indicate that prices are well below their average, which is a show of weakness.
+### Trend
 
-http://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:commodity_channel_index_cci
-
-Parameters
-high (pandas.Series) – dataset ‘High’ column.
-
-low (pandas.Series) – dataset ‘Low’ column.
-
-close (pandas.Series) – dataset ‘Close’ column.
-
-window (int) – n period.
-
-constant (int) – constant.
-
-fillna (bool) – if True, fill nan values.
-
-cci() → pandas.core.series.Series
-Commodity Channel Index (CCI)
-
-Returns
-New feature generated.
-
-Return type
-pandas.Series
+The Trend indicator determines whether an asset is currently overbought or oversold. Many trend following indicators, attempt to create a clear “channel". A clear channel will tell you whether prices are close to breaking out or returning to normal. We use the Moving Average Convergence Divergence indicator (MACD).
 
 MACD
+Is a trend-following momentum indicator that shows the relationship between two moving averages of prices.The MACD is calculated using two exponential moving averages (EMA) - short term and long term. An exponential moving average of MACD is used as a signal line to indicate the upward or downward momentum. An exponential moving average is nothing but simply a moving average that gives more weightage to the recent data.
+
+Calculation
 classta.trend.MACD(close: pandas.core.series.Series, window_slow: int = 26, window_fast: int = 12, window_sign: int = 9, fillna: bool = False)
 Moving Average Convergence Divergence (MACD)
 
-Is a trend-following momentum indicator that shows the relationship between two moving averages of prices.
+### Volatility
 
-https://school.stockcharts.com/doku.php?id=technical_indicators:moving_average_convergence_divergence_macd
+ as their name suggests, measure the volatility of the underlying instrument. We used the Average True Range (ATR) indicator to measure volatility.
 
-Parameters
-close (pandas.Series) – dataset ‘Close’ column.
+ATR
+The ATR indicator moves up and down as price moves in an asset become larger or smaller.
 
-window_fast (int) – n period short-term.
+Calculation
+To calculate the ATR by hand, you must first calculate a series of true ranges (TRs). The TR for a given trading period is the greatest of the following:
 
-window_slow (int) – n period long-term.
+Current high minus the previous close
+Current low minus the previous close
+Current high minus the current low
+Whether the number is positive or negative doesn't matter. The highest absolute value is used in the calculation.
 
-window_sign (int) – n period to signal.
+Current ATR = ((Prior ATR x 13) + Current TR) / 141
 
-fillna (bool) – if True, fill nan values.
+## Scenario
 
-macd() → pandas.core.series.Series
-MACD Line
+Short term retail crypto trader that typically spends $5,000 a year trading on various carypto exchanges. The trader is very fimiliar with technical anaiysis but doesn't have the time to setup trades and conduct fundenmental analisis to predict future prices. This trader would rather use our stratgey than lending cytpo for APY, but wants to see a %15 return within a year.  
 
-Returns
-New feature generated.
+## Solution
 
-Return type
-pandas.Series
+A trading strategy that combines multiple technical indicators into a single strategy.  
 
-macd_diff() → pandas.core.series.Series
-MACD Histogram
+Use indicator classifications associated with, Momentum, Trend, Volume, and Volatility
 
-Returns
-New feature generated.
+Use indicators to create a machine learning model that produces buy and sale signals
 
-Return type
-pandas.Series
+Create the algorithm based on training data
 
-macd_signal() → pandas.core.series.Series
-Signal Line
+Program the model to make entry and exist trade decisions without being explicitly programmed to do so.
 
-Returns
-New feature generated.
+formulate a trading plan for short and long term traders
 
-Return type
-pandas.Series
+## Features & Screenshots
 
-So now we'll calculate the MACD with pandas-ta; it'll give us three columns, one is of the difference between the two EMA's called MACD and one is the EMA of MACD value called as Signal, and the last one is the difference between MACD & Signal called as MACD histogram.
+* Visualization of Data
+* Aggregated Dashboard
+* Machince Learning  
+* Random Forest *
+* Linear Regression *
 
-SMA - Simple Moving Average
+## Investment Plan
 
-Parameters
-close (pandas.Series) – dataset ‘Close’ column.
+| Investment     | Coin          | term |  | Expected ROI| Broker Fees   | Software Price|  
+| ------------- |:-------------:| -----:|  ------------- |:-------------:| -------------:|
+| $5,000         | BTC          | 365 days |%15          .075 Maker/Taker       $500
 
-window (int) – n period.
+0.1000% / 0.1000%
+Profit
+Cumlative Returns
 
-fillna (bool) – if True, fill nan values.
+## Project Deliverables
 
-sma_indicator() → pandas.core.series.Series
-Simple Moving Average (SMA)
+* Scoping Document
+* PowerPoint
+* README.md
+* GitHub Repository
 
-Returns
-New feature generated.
+## Usage (add link to code)
 
-Return type
-pandas.Series
+How does one go about using it?
+Provide various use cases and code examples here.
 
-import pandas as pd
-from ta.utils import dropna
-from ta.volatility import BollingerBands
+`write-your-code-here`
 
+## Project Status
 
+Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
 
-ta.volatility.bollinger_mavg(close, window=20, fillna=False)
-Bollinger Bands (BB)
+## Room for Improvement
 
-N-period simple moving average (MA).
+Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
-https://en.wikipedia.org/wiki/Bollinger_Bands
+Room for improvement:
 
-Parameters
-close (pandas.Series) – dataset ‘Close’ column.
+* Improvement to be done 1
+* Improvement to be done 2
 
-window (int) – n period.
+To do:
 
-fillna (bool) – if True, fill nan values.
+* Feature to be added 1
+* Feature to be added 2
 
-Returns
-New feature generated.
+## Acknowledgements
 
-Return type
-pandas.Series
+Give credit here.
 
-
-
-
-
+## Contact
