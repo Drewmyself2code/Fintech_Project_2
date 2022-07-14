@@ -33,7 +33,7 @@ Our goal is to develop an effective learning model that can predict proper entry
 
 ## Customer Profile
 
- ![] (<<https://keep.google.com/u/0/media/v2/1Hg_c9BSuGVjgg_eEO4zkr7E-WhoctJKKWnbBy5Cj1X2vOtUdb-LkBjEifrMxxg/14iP3uixjjZ4lQnINFbGX1CeK5kkd4v_BJIFptm1MuXf9GbAWGdnkkZM_erknWs4?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp>>)
+ ![Alt text](https://keep.google.com/u/0/media/v2/18ftb7WcILG4l-A4LewncvKc1vIgUKbYw2kzbFYEgXEODvZ6jSyMpCLfw6FJb/10vnHvOeM3gd9LGhJZI4894A26y07-5_inmQ330d0zfuaRH27SVQKPSJPl6A4Bg?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp.jpg)
 
 A scalper trading utilizing a minute, hour, or day chart. This person loves using technical indicators but uses too many. They leave no clear direction when to enter or exist a trade.  
 
