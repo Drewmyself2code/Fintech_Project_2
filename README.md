@@ -127,36 +127,36 @@ formulate a trading plan for short and long term traders
 |Divergence                                       |   0.017123244894242724 |
 |On-balance volume | 0.01705180929365827 |
 
-### Project Deliverables
+## Project Deliverables
 
 * > Scoping Document
-* > [PowerPoint] <https://github.com/Drewmyself2code/Fintech_Project_2/blob/bccd568bb0fd940b08ebb0cef6d0c612ff112112/PowerPoint/Copy%20Surfer.pdf>
-* > README.md:
+* > PowerPoint: <https://github.com/Drewmyself2code/Fintech_Project_2/blob/bccd568bb0fd940b08ebb0cef6d0c612ff112112/PowerPoint/Copy%20Surfer.pdf>
+* > README.md: <https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/README.md>
 * > GitHub Repository:  <https://github.com/Drewmyself2code/Fintech_Project_2.git>
 
-### Usage
+## Usage
 
  <https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Development_Code/cryptosurfer.ipynb>>
 
-### Accomplishments
+## Accomplishments
 
 We found that the indicators that are similar to price action are more highly correlated.  
 Indicators such as WTO, ROC, CCI, are better predictors of signals
 
-#### Plotting Buy Sale Signals
+### Plotting Buy Sale Signals
 
 ![Buy & Sale Signals!](https://github.com/Drewmyself2code/Fintech_Project_2/blob/f2c08478ddc57ede75fd347bb2c3e21500dbe305/Photos/BuyAndSaleSignals.jpg)
 
-### Lessons Learned
+## Lessons Learned
 
 Find a way to build a consolidated signal of all indicators
 Need to find the right Deep learning model to fit our needs. We also plotted buy and sale signals.
 
-### Acknowledgements
+## Acknowledgements
 
 Thank you to the members of Crypto Surfers, Andrew Fernandez, Emerson Wen, and Jamel Boyer
 
-### Contact
+## Contact
 
 ![Investors? Possibly You?](https://github.com/Drewmyself2code/Fintech_Project_2/blob/f2c08478ddc57ede75fd347bb2c3e21500dbe305/Photos/investors.gif)
 
