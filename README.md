@@ -122,8 +122,8 @@ formulate a trading plan for short and long term traders
 | :---:                                            |      ----:                   |
 | Wave Trend Oscillator1                         |    0.19236653373573173 |
 |Commodity Channel Index  | 0.16400925181915174 |
-|I need to highlight these ==Rate of Change== | 0.09703509680838857 |
-|I need to highlight these ==Awesome Oscillator== | 0.09571612728640447 |
+|Rate of Change| 0.09703509680838857 |
+|Awesome Oscillator| 0.09571612728640447 |
 |Relative Strength Index | 0.07251030555076506 |
 |Moving Average Convergence | 0.043543500930910396 |
 |Divergence                                       |   0.017123244894242724 |
@@ -152,7 +152,7 @@ Need to find the right Deep learning model to fit our needs. We also plotted buy
 
 #### Plotting Buy Sale Signals
 
-![Buy & Sale Signals!](Projects\Fintech_Project_2\Photos\BuyAndSaleSignals.jpg)
+![Buy & Sale Signals!](https://github.com/Drewmyself2code/Fintech_Project_2/blob/f2c08478ddc57ede75fd347bb2c3e21500dbe305/Photos/BuyAndSaleSignals.jpg)
 
 ### Acknowledgements
 
@@ -160,6 +160,6 @@ Thank you to the members of Crypto Surfers, Andrew Fernandez, Emerson Wen, and J
 
 ### Contact
 
-![Investors? Possibly You?](Projects\Fintech_Project_2\Photos\investors.gif)
+![Investors? Possibly You?](https://github.com/Drewmyself2code/Fintech_Project_2/blob/f2c08478ddc57ede75fd347bb2c3e21500dbe305/Photos/investors.gif)
 
 Team Baby Yoda
