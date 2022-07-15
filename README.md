@@ -86,17 +86,17 @@ The purpose of our project is to save the retail investor money and time. Our Cr
 
 ## Solution
 
-A trading strategy that combines multiple technical indicators into a single strategy.  
+* >A trading strategy that combines multiple technical indicators into a single strategy.  
 
-Use indicator classifications associated with, Momentum, Trend, Volume, and Volatility
+* >Use indicator classifications associated with, Momentum, Trend, Volume, and Volatility.
 
-Use indicators to create a machine learning model that produces buy and sale signals
+* >Use indicators to create a machine learning model that produces buy and sale signals.
 
-Create the algorithm based on training data
+* >Create the algorithm based on training data.
 
-Program the model to make entry and exist trade decisions without being explicitly programmed to do so.
+* >Program the model to make entry and exist trade decisions without being explicitly programmed to do so.
 
-formulate a trading plan for short and long term traders
+Formulate a trading plan for short and long term traders.
 
 ## Features
 
