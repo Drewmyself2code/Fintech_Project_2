@@ -25,7 +25,7 @@ We use machine learning to pick the best technical indicators in order to build 
 * > [Technical Indicators Feature Importance](#Technical-Indicators-Feature-Importance)
 * > [Project Deliverables](#Project-Deliverables)
 * > [Features](#Features)
-* > [Usage](#project-status)
+* > [Usage](#Usage)
 * >  [Contact](#contact)
 
 ## General Information
@@ -60,7 +60,7 @@ MACD
 Is a trend-following momentum indicator that shows the relationship between two moving averages of prices.The MACD is calculated using two exponential moving averages (EMA) - short term and long term. An exponential moving average of MACD is used as a signal line to indicate the upward or downward momentum. An exponential moving average is nothing but simply a moving average that gives more weightage to the recent data.
 
 plt.show();
-![MACD](https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/MACD.jpg)
+![MACD!](https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/MACD.jpg)
 
 ### Trend
 
@@ -102,46 +102,37 @@ formulate a trading plan for short and long term traders
 
 ## Features
 
-### 01    |  API BinaceUS {#custom-id}
+* >   |  API BinaceUS
 
-### 02    |  Cleaning the Data {#custom-id}
+* >   |  Cleaning the Data
 
-### 03    | Finta Library for Technical Analysis {#custom-id}
+* >    | Finta Library for Technical Analysis {#custom-id}
 
-### 04    | Visualization {#custom-id}  
+* >  | Visualization {#custom-id}  
 
-### 05    |  Train and Test {#custom-id}
+* >    |  Train and Test {#custom-id}
 
-### 06    | Evaluate the Output {#custom-id}
+* >   | Evaluate the Output {#custom-id}
 
-### 07    | Predictions {#custom-id}
+* >    | Predictions {#custom-id}
 
 ## Technical Indicators Feature Importance
 
-==Wave Trend Oscillator==
-Commodity Channel Index  
-==Rate of Change==  
-==Awesome Oscillator==
-Relative Strength Index
-Moving Average Convergence  
-Divergence  
-On-balance volume
-
-(0.19236653373573173  wto_1
-(0.16400925181915174  cci
-==(0.09976914179615039  wto_2==
-==(0.09703509680838857  roc==
-==(0.09571612728640447  ao==
-(0.07251030555076506  rsi
-(0.043543500930910396  macd
-(0.035880294082826676  macd_signal
-(0.017123244894242724 obv
-(0.01705180929365827 vzo
+| Technical Indicators                            | Feature Importance      |  
+| :---:                                            |      ----:                   |
+| Wave Trend Oscillator1                         |    0.19236653373573173 |
+|Commodity Channel Index  | 0.16400925181915174 |
+|I need to highlight these ==Rate of Change== | 0.09703509680838857 |
+|I need to highlight these ==Awesome Oscillator== | 0.09571612728640447 |
+|Relative Strength Index | 0.07251030555076506 |
+|Moving Average Convergence | 0.043543500930910396 |
+|Divergence                                       |   0.017123244894242724 |
+|On-balance volume | 0.01705180929365827 |
 
 ## Project Deliverables
 
 * Scoping Document
-* PowerPoint: ![] (<<<https://docs.google.com/presentation/d/1VSRNFONOSUZY1YxwL1MqjSz356H-E5XEOY-3BjLQeCw/edit?usp=sharing>)
+* ![PowerPoint](https://github.com/Drewmyself2code/Fintech_Project_2/blob/bccd568bb0fd940b08ebb0cef6d0c612ff112112/PowerPoint/Copy%20Surfer.pdf>)
 * README.md:
 * GitHub Repository:  ![] (<<https://github.com/Drewmyself2code/Fintech_Project_2.git>
 
@@ -157,7 +148,11 @@ Indicators such as WTO, ROC, CCI, are better predictors of signals
 ## Lessons Learned
 
 Find a way to build a consolidated signal of all indicators
-Need to find the right Deep learning model to fit our needs
+Need to find the right Deep learning model to fit our needs. We also plotted buy and sale signals.
+
+### Plotting Buy Sale Signals
+
+![Buy & Sale Signals!]<https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/BuyAndSaleSignals.jpg>)
 
 ## Acknowledgements
 
@@ -165,6 +160,6 @@ Thank you to the members of Crypto Surfers, Andrew Fernandez, Emerson Wen, and J
 
 ## Contact
 
-![] (<<<https://camo.githubusercontent.com/fd6a567de738e5bb9feb1114af7edf74832c1c671c7bb6d7079f306210f13512/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f336f6553414c52794834725953334e7438512f67697068792e676966>)
+![Investors? Possibly You?] (<https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/investors.gif>)
 
 Team Baby Yoda
