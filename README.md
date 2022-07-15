@@ -34,7 +34,7 @@ Our goal is to develop an effective learning model that can predict proper entry
 
 (bold)Buy & Sale Signals
 
-## Customer Profile
+### Customer Profile
 
  ![Customer](https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/Customer.jpg)
 
@@ -59,14 +59,14 @@ Momentum indicators return a selling signal when prices start to move strongly h
 MACD
 Is a trend-following momentum indicator that shows the relationship between two moving averages of prices.The MACD is calculated using two exponential moving averages (EMA) - short term and long term. An exponential moving average of MACD is used as a signal line to indicate the upward or downward momentum. An exponential moving average is nothing but simply a moving average that gives more weightage to the recent data.
 
-plt.show();
+plt.show
 ![MACD!](https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/MACD.jpg)
 
 ### Trend
 
 The Trend indicator determines whether an asset is currently overbought or oversold. Many trend following indicators, attempt to create a clear “channel". A simple moving average (SMA) calculates the average of a selected range of prices, usually closing prices, by the number of periods in that range.
 
-plt.show();
+plt.show
 ![SMA](https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/SMA.jpg)
 
 ### Volatility
@@ -76,7 +76,7 @@ plt.show();
 bitcoin_trend_cstkplt  
 ![BB](https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/BB.jpg)
 
-## Scenario
+### Scenario
 
 The purpose of our project is to save the retail investor money and time. Our Crypto Surfer Trading Strategy has all three professional trader components making any retail trader a professional in their own right.
 
@@ -86,7 +86,7 @@ The purpose of our project is to save the retail investor money and time. Our Cr
 * > Toolbox
 * > Strategy
 
-## Solution
+### Solution
 
 A trading strategy that combines multiple technical indicators into a single strategy.  
 
@@ -129,37 +129,37 @@ formulate a trading plan for short and long term traders
 |Divergence                                       |   0.017123244894242724 |
 |On-balance volume | 0.01705180929365827 |
 
-## Project Deliverables
+### Project Deliverables
 
-* Scoping Document
-* ![PowerPoint](https://github.com/Drewmyself2code/Fintech_Project_2/blob/bccd568bb0fd940b08ebb0cef6d0c612ff112112/PowerPoint/Copy%20Surfer.pdf>)
-* README.md:
-* GitHub Repository:  ![] (<<https://github.com/Drewmyself2code/Fintech_Project_2.git>
+* > Scoping Document
+* > ![PowerPoint](https://github.com/Drewmyself2code/Fintech_Project_2/blob/bccd568bb0fd940b08ebb0cef6d0c612ff112112/PowerPoint/Copy%20Surfer.pdf>)
+* > README.md:
+* > GitHub Repository:  ![] (<<https://github.com/Drewmyself2code/Fintech_Project_2.git>
 
-## Usage
+### Usage
 
-![] (<<<https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Development_Code/cryptosurfer.ipynb>
+![The Code] (<<<https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Development_Code/cryptosurfer.ipynb>
 
-## Accomplishments
+### Accomplishments
 
 We found that the indicators that are similar to price action are more highly correlated.  
 Indicators such as WTO, ROC, CCI, are better predictors of signals
 
-## Lessons Learned
+### Lessons Learned
 
 Find a way to build a consolidated signal of all indicators
 Need to find the right Deep learning model to fit our needs. We also plotted buy and sale signals.
 
-### Plotting Buy Sale Signals
+#### Plotting Buy Sale Signals
 
-![Buy & Sale Signals!]<https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/BuyAndSaleSignals.jpg>)
+![Buy & Sale Signals!](Projects\Fintech_Project_2\Photos\BuyAndSaleSignals.jpg)
 
-## Acknowledgements
+### Acknowledgements
 
 Thank you to the members of Crypto Surfers, Andrew Fernandez, Emerson Wen, and Jamel Boyer
 
-## Contact
+### Contact
 
-![Investors? Possibly You?] (<https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/investors.gif>)
+![Investors? Possibly You?](Projects\Fintech_Project_2\Photos\investors.gif)
 
 Team Baby Yoda
