@@ -1,10 +1,11 @@
 # Fintech_Project_2
 
-![] (<https://blockupdate.io/wp-content/uploads/2019/02/price-chart.jpg>)
+![BlockUpdate](<https://blockupdate.io/wp-content/uploads/2019/02/price-chart.jpg>)
 
 Introduction:
 
-------------
+--------
+![Crypto_Sufers](https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/Screenshot%2010.jpg)
 
 ## Goal
 
@@ -31,13 +32,15 @@ We use machine learning to pick the best technical indicators in order to build 
 
 Our goal is to develop an effective learning model that can predict proper entry and exist signals in the highly volatile crypto market. The focus is on predicting the technical indicator signals which describes the behavior of the market.
 
+(bold)Buy & Sale Signals
+
 ## Customer Profile
 
  ![Customer](https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/Customer.jpg)
 
 A scalper trading utilizing a minute, hour, or day chart. This person loves using technical indicators but uses too many. They leave no clear direction when to enter or exist a trade.  
 
-## Problems with Retail
+### Problems with Retail
 
 * > Time spent analyzing charts
 * > Panic trading
@@ -56,21 +59,22 @@ Momentum indicators return a selling signal when prices start to move strongly h
 MACD
 Is a trend-following momentum indicator that shows the relationship between two moving averages of prices.The MACD is calculated using two exponential moving averages (EMA) - short term and long term. An exponential moving average of MACD is used as a signal line to indicate the upward or downward momentum. An exponential moving average is nothing but simply a moving average that gives more weightage to the recent data.
 
-![MACD] (Projects\Fintech_Project_2\Photos\MACD.jpg)
+plt.show();
+![MACD](https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/MACD.jpg)
 
 ### Trend
 
 The Trend indicator determines whether an asset is currently overbought or oversold. Many trend following indicators, attempt to create a clear “channel". A simple moving average (SMA) calculates the average of a selected range of prices, usually closing prices, by the number of periods in that range.
 
-Plot
-![] <https://keep.google.com/u/0/media/v2/1m_RDurGykPqxmgePcEnvdw_xCQBzDdL9anGy4jY-0hIUMsEnuHnBuY33TrPpYDg/1RpfkNY84ELFuK86uBSdv7J6hVlSnIeK-ZAKfId2RrNSk16-hbgqVeR1OXqBhWMY?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp>
+plt.show();
+![SMA](https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/SMA.jpg)
 
 ### Volatility
 
  As their name suggests, measure the volatility of the underlying instrument. We used the Bollinger Bands are composed of three lines. One of the more common calculations uses a 20-day simple moving average (SMA) for the middle band. The upper band is calculated by taking the middle band and adding twice the daily standard deviation to that amount. The lower band is calculated by taking the middle band minus two times the daily standard deviation.
 
-Plot  
-![] <https://keep.google.com/u/0/media/v2/16uvhcLW4uIPC3QyPoiw_8Nc4hSVGlHWsZ_SwAKFbiFj77mYOSn1jDfg9vB2uLg/1fp_AHDAagGdGf3r-oAvM5VPk-AUVMV8ubsACwg3NLrRVWJtMtADc6PhaDmTq2x0?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp>
+bitcoin_trend_cstkplt  
+![BB](https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/BB.jpg)
 
 ## Scenario
 
@@ -98,26 +102,26 @@ formulate a trading plan for short and long term traders
 
 ## Features
 
-01    |  API BinaceUS
+### 01    |  API BinaceUS {#custom-id}
 
-02    |  Cleaning the Data
+### 02    |  Cleaning the Data {#custom-id}
 
-03    | Finta Library for Technical Analysis  
+### 03    | Finta Library for Technical Analysis {#custom-id}
 
-04    | Visualization  
+### 04    | Visualization {#custom-id}  
 
-05    |  Train and Test  
+### 05    |  Train and Test {#custom-id}
 
-06    | Evaluate the Output
+### 06    | Evaluate the Output {#custom-id}
 
-07    | Predictions
+### 07    | Predictions {#custom-id}
 
 ## Technical Indicators Feature Importance
 
-Wave Trend Oscillator
+==Wave Trend Oscillator==
 Commodity Channel Index  
-Rate of Change  
-Awesome Oscillator
+==Rate of Change==  
+==Awesome Oscillator==
 Relative Strength Index
 Moving Average Convergence  
 Divergence  
@@ -125,9 +129,9 @@ On-balance volume
 
 (0.19236653373573173  wto_1
 (0.16400925181915174  cci
-(0.09976914179615039  wto_2
-(0.09703509680838857  roc
-(0.09571612728640447  ao
+==(0.09976914179615039  wto_2==
+==(0.09703509680838857  roc==
+==(0.09571612728640447  ao==
 (0.07251030555076506  rsi
 (0.043543500930910396  macd
 (0.035880294082826676  macd_signal
