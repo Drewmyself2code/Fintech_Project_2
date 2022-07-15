@@ -4,16 +4,16 @@
 
 Introduction:
 
+## Crypto_Sufers
+
+We use machine learning to pick the best technical indicators in order to build trade strategies that exit at the crest and enter in the trough
+
 --------
 ![Crypto_Sufers](https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/Screenshot%2010.jpg)
 
-## Goal
-
-We use machine learning to pick the best technical indicators in order to build trade strategies that exit at the crest and enter in the trough.
-
 ## Table-of-Contents
 
-* > [General Information](#General-Information)
+* > [Goal](#Goal)
 * > [Customer Profile](#Customer-Profile)
 * > [Problems with Retail](#Problems-with-Retail)
 * > [Technical Indicators](#Technical-Indicators)
@@ -28,13 +28,11 @@ We use machine learning to pick the best technical indicators in order to build 
 * > [Usage](#Usage)
 * >  [Contact](#contact)
 
-## General Information
+## Goal
 
 Our goal is to develop an effective learning model that can predict proper entry and exist signals in the highly volatile crypto market. The focus is on predicting the technical indicator signals which describes the behavior of the market.
 
-(bold)Buy & Sale Signals
-
-### Customer Profile
+## Customer Profile
 
  ![Customer](https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/Customer.jpg)
 
@@ -106,15 +104,15 @@ formulate a trading plan for short and long term traders
 
 * >   |  Cleaning the Data
 
-* >    | Finta Library for Technical Analysis {#custom-id}
+* >    | Finta Library for Technical Analysis
 
-* >  | Visualization {#custom-id}  
+* >  | Visualization
 
-* >    |  Train and Test {#custom-id}
+* >    |  Train and Test
 
-* >   | Evaluate the Output {#custom-id}
+* >   | Evaluate the Output
 
-* >    | Predictions {#custom-id}
+* >    | Predictions
 
 ## Technical Indicators Feature Importance
 
@@ -132,7 +130,7 @@ formulate a trading plan for short and long term traders
 ### Project Deliverables
 
 * > Scoping Document
-* > ![PowerPoint](https://github.com/Drewmyself2code/Fintech_Project_2/blob/bccd568bb0fd940b08ebb0cef6d0c612ff112112/PowerPoint/Copy%20Surfer.pdf>)
+* > ![PowerPoint] (<https://github.com/Drewmyself2code/Fintech_Project_2/blob/bccd568bb0fd940b08ebb0cef6d0c612ff112112/PowerPoint/Copy%20Surfer.pdf>>)
 * > README.md:
 * > GitHub Repository:  ![] (<<https://github.com/Drewmyself2code/Fintech_Project_2.git>
 
