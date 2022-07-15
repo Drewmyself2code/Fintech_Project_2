@@ -17,7 +17,7 @@ We use machine learning to pick the best technical indicators in order to build 
 * > [Customer Profile](#Customer-Profile)
 * > [Problems with Retail](#Problems-with-Retail)
 * > [Technical Indicators](#Technical-Indicators)
-* >  [Scenario](#features)
+* >  [features](#features)
 * >  [Three things Pros have in Common](#Three-things-Pros-have-in-Common)
 * >  [Scenario](#Scenario)
 * >  [Solution](#Solution)
