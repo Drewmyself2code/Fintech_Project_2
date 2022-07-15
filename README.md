@@ -56,7 +56,7 @@ Momentum indicators return a selling signal when prices start to move strongly h
 MACD
 Is a trend-following momentum indicator that shows the relationship between two moving averages of prices.The MACD is calculated using two exponential moving averages (EMA) - short term and long term. An exponential moving average of MACD is used as a signal line to indicate the upward or downward momentum. An exponential moving average is nothing but simply a moving average that gives more weightage to the recent data.
 
-![] (<https://keep.google.com/u/0/media/v2/1BGd0jzg9OYun-MV_1RnqOQGHMU3RSawG6vqwLa2GzxB0WpW_iPwbXk5ovFlMhg/18izKwj43WjHBrJ1FtkcNc-tx1zJgk4BTF1zKxICgQs8fDdXlBjdz1g4LZASM0B8?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp>)
+![MACD] (Projects\Fintech_Project_2\Photos\MACD.jpg)
 
 ### Trend
 
@@ -137,7 +137,7 @@ On-balance volume
 ## Project Deliverables
 
 * Scoping Document
-* PowerPoint: ![] (<<https://docs.google.com/presentation/d/1VSRNFONOSUZY1YxwL1MqjSz356H-E5XEOY-3BjLQeCw/edit?usp=sharing>)
+* PowerPoint: ![] (<<<https://docs.google.com/presentation/d/1VSRNFONOSUZY1YxwL1MqjSz356H-E5XEOY-3BjLQeCw/edit?usp=sharing>)
 * README.md:
 * GitHub Repository:  ![] (<<https://github.com/Drewmyself2code/Fintech_Project_2.git>
 
