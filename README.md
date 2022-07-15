@@ -4,7 +4,7 @@
 
 Introduction:
 
-## Crypto_Sufers
+## Crypto_Surfers
 
 We use machine learning to pick the best technical indicators in order to build trade strategies that exit at the crest and enter in the trough
 
