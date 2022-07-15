@@ -30,7 +30,7 @@ We use machine learning to pick the best technical indicators in order to build 
 
 ## Goal
 
-Our goal is to develop an effective learning model that can predict proper entry and exist signals in the highly volatile crypto market. The focus is on predicting the technical indicator signals which describes the behavior of the market.
+Our goal is to develop an effective learning model that can predict proper entry and exit signals in the highly volatile crypto market. The focus is on predicting the technical indicator signals which describes the behavior of the market.
 
 ## Customer Profile
 
@@ -38,7 +38,7 @@ Our goal is to develop an effective learning model that can predict proper entry
 
 A scalper trading utilizing a minute, hour, or day chart. This person loves using technical indicators but uses too many. They leave no clear direction when to enter or exist a trade.  
 
-### Problems with Retail
+## Problems with Retail
 
 * > Time spent analyzing charts
 * > Panic trading
@@ -74,7 +74,7 @@ plt.show
 bitcoin_trend_cstkplt  
 ![BB](https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/BB.jpg)
 
-### Scenario
+## Scenario
 
 The purpose of our project is to save the retail investor money and time. Our Crypto Surfer Trading Strategy has all three professional trader components making any retail trader a professional in their own right.
 
@@ -84,7 +84,7 @@ The purpose of our project is to save the retail investor money and time. Our Cr
 * > Toolbox
 * > Strategy
 
-### Solution
+## Solution
 
 A trading strategy that combines multiple technical indicators into a single strategy.  
 
@@ -129,7 +129,7 @@ formulate a trading plan for short and long term traders
 
 ## Project Deliverables
 
-* > Scoping Document
+* > Scoping Document: <https://docs.google.com/document/d/1TnpLC9RSWVsd6WzrHG0kUHuTd9EpTaYaYmCoaiZ-NB4/edit?usp=sharing>
 * > PowerPoint: <https://github.com/Drewmyself2code/Fintech_Project_2/blob/bccd568bb0fd940b08ebb0cef6d0c612ff112112/PowerPoint/Copy%20Surfer.pdf>
 * > README.md: <https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/README.md>
 * > GitHub Repository:  <https://github.com/Drewmyself2code/Fintech_Project_2.git>
