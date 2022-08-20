@@ -1,176 +1,163 @@
 # Fintech_Project_2
-![](https://blockupdate.io/wp-content/uploads/2019/02/price-chart.jpg)
+
+![BlockUpdate](<https://blockupdate.io/wp-content/uploads/2019/02/price-chart.jpg>)
 
 Introduction:
 
-------------
+## Crypto_Surfers
 
-## Goal
+We use machine learning to pick the best technical indicators in order to build trade strategies that exit at the crest and enter in the trough
 
-We are developing an effective learning model that can predict proper entry and exist signals for short and long term trades in the highly volatile crypto market.
+--------
+![Crypto_Sufers](https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/Screenshot%2010.jpg)
 
 ## Table-of-Contents
 
-* > [General Information](#General-Information)
+* > [Goal](#Goal)
 * > [Customer Profile](#Customer-Profile)
-* > [Technical Indicators](#Technical-Indicators)
 * > [Problems with Retail](#Problems-with-Retail)
-* >  [Scenario](#features)
+* > [Technical Indicators](#Technical-Indicators)
+* >  [features](#features)
 * >  [Three things Pros have in Common](#Three-things-Pros-have-in-Common)
 * >  [Scenario](#Scenario)
 * >  [Solution](#Solution)
-* > [Investment Plan](#Investment-Plan)
+* > [Features](#Features)
+* > [Technical Indicators Feature Importance](#Technical-Indicators-Feature-Importance)
 * > [Project Deliverables](#Project-Deliverables)
 * > [Features](#Features)
-* > [Usage](#project-status)
+* > [Usage](#Usage)
 * >  [Contact](#contact)
 
-## General Information
+## Goal
 
-Our goal is to develop an effective learning model that can predict proper entry and exist signals for short and long term trades in the highly volatile crypto market.
+Our goal is to develop an effective learning model that can predict proper entry and exit signals in the highly volatile crypto market. The focus is on predicting the technical indicator signals which describes the behavior of the market.
 
 ## Customer Profile
 
-Short Term Investor:
-A scalper trading utilizing a minute, hour, or day chart. This person loves using technical indicators but uses too many. They leave no clear direction when to enter or exist a trade.  
+ ![Customer](https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/Customer.jpg)
 
-Long Term Investor:
-This investor may want to dollar cost into a trading range but would prefer to buy cryto at a cheaper price. Or, this investor is looking for the perfect signals for a long or short in an exisiting trade. This investor doesn't have the time to update charts everyday and trade, but this investor understands technical indicators.
+A scalper trading utilizing a minute, hour, or day chart. This person loves using technical indicators but uses too many. They leave no clear direction when to enter or exist a trade.  
 
 ## Problems with Retail
 
-* > Time spent analzing charts
+* > Time spent analyzing charts
 * > Panic trading
-* >  False signals
-* >  Fraud
-* > Mulpiniulation
-* > Inconsistancy
-* > Confusion
+* > False signals
+* > Fraud
+* > Market Manipulation
+* > Inconsistent trading
+* > Confused by indicators
 
-## Three things Pros have in Common
-
-* >  Patience
-* > Toolbox
-* > Strategy
-
-The purpose of our project is to save the retail investor money and time.  Our Crypto Surfer Trading Strategy has all three professional trader componets making any retail trader a professional in their own right.
-
-* > Patience:  the module waits for signals: no emotions invloved
-* >  oolbox:  Our trading strategy combines technical indicators into a single strategy
-* > Learning: We use machine and deep learning to predict future prices
-
-## Technical_Indicators
+## Technical Indicators
 
 ### Momentum
 
-Momentum indicators return a selling signal when prices start to move strongly higher, and a buying signal when prices start to move strongly lower. We used the Commodity Channel Index indicator to measure momentum.
-
-CCI
-CCI measures the difference between a security’s price change and its average price change. High positive readings indicate that prices are well above their average, which is a show of strength. Low negative readings indicate that prices are well below their average, which is a show of weakness.
-
-Calculation
-classta.trend.CCIIndicator(high: pandas.core.series.Series, low: pandas.core.series.Series, close: pandas.core.series.Series, window: int = 20, constant: float = 0.015, fillna: bool = False)
-Commodity Channel Index (CCI)
-
-### Trend
-
-The Trend indicator determines whether an asset is currently overbought or oversold. Many trend following indicators, attempt to create a clear “channel". A clear channel will tell you whether prices are close to breaking out or returning to normal. We use the Moving Average Convergence Divergence indicator (MACD).
+Momentum indicators return a selling signal when prices start to move strongly higher, and a buying signal when prices start to move strongly lower. We used the Moving Average Convergence/Divergence Index indicator to measure momentum.
 
 MACD
 Is a trend-following momentum indicator that shows the relationship between two moving averages of prices.The MACD is calculated using two exponential moving averages (EMA) - short term and long term. An exponential moving average of MACD is used as a signal line to indicate the upward or downward momentum. An exponential moving average is nothing but simply a moving average that gives more weightage to the recent data.
 
-Calculation
-classta.trend.MACD(close: pandas.core.series.Series, window_slow: int = 26, window_fast: int = 12, window_sign: int = 9, fillna: bool = False)
-Moving Average Convergence Divergence (MACD)
+plt.show
+![MACD!](https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/MACD.jpg)
+
+### Trend
+
+The Trend indicator determines whether an asset is currently overbought or oversold. Many trend following indicators, attempt to create a clear “channel". A simple moving average (SMA) calculates the average of a selected range of prices, usually closing prices, by the number of periods in that range.
+
+plt.show
+![SMA](https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/SMA.jpg)
 
 ### Volatility
 
- as their name suggests, measure the volatility of the underlying instrument. We used the Average True Range (ATR) indicator to measure volatility.
+ As their name suggests, measure the volatility of the underlying instrument. We used the Bollinger Bands are composed of three lines. One of the more common calculations uses a 20-day simple moving average (SMA) for the middle band. The upper band is calculated by taking the middle band and adding twice the daily standard deviation to that amount. The lower band is calculated by taking the middle band minus two times the daily standard deviation.
 
-ATR
-The ATR indicator moves up and down as price moves in an asset become larger or smaller.
-
-Calculation
-To calculate the ATR by hand, you must first calculate a series of true ranges (TRs). The TR for a given trading period is the greatest of the following:
-
-Current high minus the previous close
-Current low minus the previous close
-Current high minus the current low
-Whether the number is positive or negative doesn't matter. The highest absolute value is used in the calculation.
-
-Current ATR = ((Prior ATR x 13) + Current TR) / 141
+bitcoin_trend_cstkplt  
+![BB](https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Photos/BB.jpg)
 
 ## Scenario
 
-Short term retail crypto trader that typically spends $5,000 a year trading on various carypto exchanges. The trader is very fimiliar with technical anaiysis but doesn't have the time to setup trades and conduct fundenmental analisis to predict future prices. This trader would rather use our stratgey than lending cytpo for APY, but wants to see a %15 return within a year.  
+The purpose of our project is to save the retail investor money and time. Our Crypto Surfer Trading Strategy has all three professional trader components making any retail trader a professional in their own right.
+
+ Three things Pros have in Common
+
+* > Patience
+* > Toolbox
+* > Strategy
 
 ## Solution
 
-A trading strategy that combines multiple technical indicators into a single strategy.  
+* >A trading strategy that combines multiple technical indicators into a single strategy.  
 
-Use indicator classifications associated with, Momentum, Trend, Volume, and Volatility
+* >Use indicator classifications associated with, Momentum, Trend, Volume, and Volatility.
 
-Use indicators to create a machine learning model that produces buy and sale signals
+* >Use indicators to create a machine learning model that produces buy and sale signals.
 
-Create the algorithm based on training data
+* >Create the algorithm based on training data.
 
-Program the model to make entry and exist trade decisions without being explicitly programmed to do so.
+* >Program the model to make entry and exist trade decisions without being explicitly programmed to do so.
 
-formulate a trading plan for short and long term traders
+Formulate a trading plan for short and long term traders.
 
-## Features & Screenshots
+## Features
 
-* Visualization of Data
-* Aggregated Dashboard
-* Machince Learning  
-* Random Forest *
-* Linear Regression *
+* >   |  API BinaceUS
 
-## Investment Plan
+* >   |  Cleaning the Data
 
-| Investment     | Coin          | term |  | Expected ROI| Broker Fees   | Software Price|  
-| ------------- |:-------------:| -----:|  ------------- |:-------------:| -------------:|
-| $5,000         | BTC          | 365 days |%15          .075 Maker/Taker       $500
+* >    | Finta Library for Technical Analysis
 
-0.1000% / 0.1000%
-Profit
-Cumlative Returns
+* >  | Visualization
+
+* >    |  Train and Test
+
+* >   | Evaluate the Output
+
+* >    | Predictions
+
+## Technical Indicators Feature Importance
+
+| Technical Indicators                            | Feature Importance      |  
+| :---:                                            |      ----:                   |
+| Wave Trend Oscillator1                         |    0.19236653373573173 |
+|Commodity Channel Index  | 0.16400925181915174 |
+|Rate of Change| 0.09703509680838857 |
+|Awesome Oscillator| 0.09571612728640447 |
+|Relative Strength Index | 0.07251030555076506 |
+|Moving Average Convergence | 0.043543500930910396 |
+|Divergence                                       |   0.017123244894242724 |
+|On-balance volume | 0.01705180929365827 |
 
 ## Project Deliverables
 
-* Scoping Document
-* PowerPoint
-* README.md
-* GitHub Repository
+* > Scoping Document: <https://docs.google.com/document/d/1TnpLC9RSWVsd6WzrHG0kUHuTd9EpTaYaYmCoaiZ-NB4/edit?usp=sharing>
+* > PowerPoint: <https://github.com/Drewmyself2code/Fintech_Project_2/blob/bccd568bb0fd940b08ebb0cef6d0c612ff112112/PowerPoint/Copy%20Surfer.pdf>
+* > README.md: <https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/README.md>
+* > GitHub Repository:  <https://github.com/Drewmyself2code/Fintech_Project_2.git>
 
-## Usage (add link to code)
+## Usage
 
-How does one go about using it?
-Provide various use cases and code examples here:
+ <https://github.com/Drewmyself2code/Fintech_Project_2/blob/main/Development_Code/cryptosurfer.ipynb>>
 
-`write-your-code-here`
+## Accomplishments
 
-## Project Status
+We found that the indicators that are similar to price action are more highly correlated.  
+Indicators such as WTO, ROC, CCI, are better predictors of signals
 
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+### Plotting Buy Sale Signals
 
-## Room for Improvement
+![Buy & Sale Signals!](https://github.com/Drewmyself2code/Fintech_Project_2/blob/f2c08478ddc57ede75fd347bb2c3e21500dbe305/Photos/BuyAndSaleSignals.jpg)
 
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+## Lessons Learned
 
-Room for improvement:
-
-* Improvement to be done 1
-* Improvement to be done 2
-
-To do:
-
-* Feature to be added 1
-* Feature to be added 2
+Find a way to build a consolidated signal of all indicators
+Need to find the right Deep learning model to fit our needs. We also plotted buy and sale signals.
 
 ## Acknowledgements
 
-Give credit here.
+Thank you to the members of Crypto Surfers, Andrew Fernandez, Emerson Wen, and Jamel Boyer
 
 ## Contact
-![](https://media.giphy.com/media/3oeSALRyH4rYS3Nt8Q/giphy.gif)
+
+![Investors? Possibly You?](https://github.com/Drewmyself2code/Fintech_Project_2/blob/f2c08478ddc57ede75fd347bb2c3e21500dbe305/Photos/investors.gif)
+
+Team Baby Yoda
